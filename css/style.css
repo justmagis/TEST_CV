@@ -184,26 +184,26 @@ body {
     font-size: 16px;
 }
 .skills__html {
-    background-image: url(./assets/icons/html.svg);
+    background-image: url(../assets/icons/html.svg);
 }
 .skills__css {
-    background-image: url(./assets/icons/css.svg);
+    background-image: url(../assets/icons/css.svg);
 }
 .skills__sass {
-    background-image: url(./assets/icons/sass.svg);
+    background-image: url(../assets/icons/sass.svg);
     background-position: 3px 0;
 }
 .skills__javascript {
-    background-image: url(./assets/icons/javascript.svg);
+    background-image: url(../assets/icons/javascript.svg);
 }
 .skills__bootstrap {
-    background-image: url(./assets/icons/bootstrap.svg);
+    background-image: url(../assets/icons/bootstrap.svg);
 }
 .skills__github {
-    background-image: url(./assets/icons/github.svg);
+    background-image: url(../assets/icons/github.svg);
 }
 .skills__avocode {
-    background-image: url(./assets/icons/avocode.svg);
+    background-image: url(../assets/icons/avocode.svg);
     background-position: 6px 0;
 }
 
@@ -250,7 +250,7 @@ body {
 
 .phone__number::before {
     position: absolute;
-    content: 'Phone';
+    content: "Phone";
     left: 0px;
     background: #1a1a21;
     z-index: 1;
@@ -258,7 +258,7 @@ body {
 }
 .phone__number:hover:before {
     position: absolute;
-    content: 'Phone:';
+    content: "Phone:";
     left: -69px;
     background: #1a1a21;
     z-index: 1;
@@ -266,7 +266,7 @@ body {
     transition: all 1s;
 }
 .phone__number {
-position: relative;
+    position: relative;
 }
 
 .footer__content {
