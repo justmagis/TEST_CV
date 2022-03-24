@@ -213,14 +213,117 @@ body {
     display: flex;
     width: 70%;
     color: #1a1a21;
-    background: aliceblue;
+    background: #fff;
+}
+
+.main__container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
 }
 .main__about {
+    display: flex;
+    flex-direction: column;
 }
-.main__header {
+
+.about__title {
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 30px;
 }
-.main__descr {
+.title {
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
+.divider_black {
+    background: #000;
+    margin-bottom: 20px;
+}
+.about__text {
+    font-weight: 400;
+    margin: 20px 0 20px;
+}
+.about__strength {
+    margin-left: 40px;
+    
+}
+.strengths__title {
+
+}
+.strengths__list {
+    font-weight: 400;
+}
+.strength__item {
+    position: relative;
+
+    margin: 10px 0 10px 25px;
+}
+.about__languages {
+    margin-left: 40px;
+
+}
+.languages__title {
+}
+.languages__list {
+    font-weight: 400;
+
+}
+.language__item {
+    position: relative;
+    margin: 10px 0 10px 25px;
+}
+.language__item::before,
+.strength__item::before{
+    position: absolute;
+    content: '';
+    background: #fff;
+    top: 7px;
+    left: -12px;
+    height: 6px;
+    width: 6px;
+    border: solid 1px #000;
+    border-radius: 50%;
+}
+.main__code {
+}
+.code__title {
+    text-transform: uppercase;
+    text-align: end;
+    font-size: 30px;
+
+}
+
+.divider_black {
+    margin-top: 0;
+}
+.code__content {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+pre {
+    background: #1a1a21;
+    color: gray;
+    height: 10%;
+}
+.code-keyword {
+    color: rgb(89, 59, 170);
+}
+.code-function-name {
+    color: rgb(149, 30, 30);
+}
+.code-params {
+
+}
+
+
+
+
+
+
 
 /* 3. Footer section */
 
@@ -291,9 +394,6 @@ body {
     transition: left 0.8s, width 1.2s;
 }
 
-.contact_telegram{
-    
-}
 
 
 
@@ -301,4 +401,24 @@ body {
     height: 100%;
     width: 70%;
     background: #fecc00;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
 }
+.footer__github {
+    height: 60%;
+}
+.footer__rsschool {
+    height: 60%;
+
+}
+.footer__image{
+    height: 100%;
+}
+
+.footer__date {
+    text-transform: uppercase;
+    width: 10%;
+}
+
