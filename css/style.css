@@ -175,7 +175,7 @@ body {
 .skills__list {
 }
 .skills__item {
-    margin: 20px 0px 20px 0px;
+    margin: 15px 0px 15px 0px;
     padding-left: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -258,18 +258,16 @@ body {
 }
 .strength__item {
     position: relative;
-
     margin: 10px 0 10px 25px;
 }
 .about__languages {
     margin-left: 40px;
-
+    margin-bottom: 30px;
 }
 .languages__title {
 }
 .languages__list {
     font-weight: 400;
-
 }
 .language__item {
     position: relative;
@@ -287,13 +285,12 @@ body {
     border: solid 1px #000;
     border-radius: 50%;
 }
-.main__code {
-}
+
+
 .code__title {
     text-transform: uppercase;
     text-align: end;
     font-size: 30px;
-
 }
 
 .divider_black {
@@ -302,12 +299,14 @@ body {
 .code__content {
     margin-left: 5%;
     margin-right: 5%;
-    
-}
-pre {
-    background: #1a1a21;
     color: gray;
     height: 10%;
+}
+.code {
+    display: block;
+    height: 150px;
+    background: #1a1a21;
+
 }
 .code-keyword {
     color: rgb(89, 59, 170);
