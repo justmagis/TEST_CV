@@ -418,6 +418,7 @@ body {
 
 .footer__date {
     text-transform: uppercase;
-    width: 10%;
+    width: 15%;
+    padding-right: 5%;
 }
 
