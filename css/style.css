@@ -13,9 +13,10 @@ body {
 }
 .wrapper {
     min-height: 100%;
-    background: #000;
+    background: rgb(235, 227, 214);
     width: 100%;
 }
+
 .container {
     margin: 0 auto;
     max-width: 1000px;
@@ -26,7 +27,7 @@ body {
 .header {
     position: relative;
     text-transform: uppercase;
-    background: #1a1a21;
+    background: #c3b091;
     display: flex;
 }
 .header__photo {
@@ -35,8 +36,50 @@ body {
     display: flex;
 }
 .header__photo > img {
+    position: relative;
     width: 100%;
 }
+
+/* THUG-life */
+
+.thug_life {
+    position: relative;
+    z-index: 1212;
+}
+.thug_glasses {
+    position: absolute;
+    width: 220px;
+    top: 150px;
+    left: 23px;
+    z-index: 1111;
+    transform: rotate(354deg);
+    animation: thug-glasses 1.5s linear;
+}
+
+.thug_sig {
+    position: absolute;
+    width: 80px;
+    top: 311px;
+    left: 45px;
+    animation: thug-sig 1.5s linear;
+}
+@keyframes thug-glasses {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 150px;
+    }
+}
+@keyframes thug-sig {
+    0% {
+        top: -50px;
+    }
+    100% {
+        top: 311px;
+    }
+}
+
 .header__content {
     width: 70%;
     display: flex;
@@ -101,7 +144,7 @@ body {
 .aside {
     display: flex;
     width: 30%;
-    background: #1a1a21;
+    background: #c3b091;
     flex-direction: column;
     color: aliceblue;
     padding-left: 3%;
@@ -213,7 +256,7 @@ body {
     display: flex;
     width: 70%;
     color: #1a1a21;
-    background: #fff;
+    background: #fffff0;
 }
 
 .main__container {
@@ -236,7 +279,6 @@ body {
     text-transform: uppercase;
     margin-bottom: 20px;
     margin-top: 20px;
-
 }
 .divider_black {
     background: #000;
@@ -248,10 +290,8 @@ body {
 }
 .about__strength {
     margin-left: 40px;
-    
 }
 .strengths__title {
-
 }
 .strengths__list {
     font-weight: 400;
@@ -274,9 +314,9 @@ body {
     margin: 10px 0 10px 25px;
 }
 .language__item::before,
-.strength__item::before{
+.strength__item::before {
     position: absolute;
-    content: '';
+    content: "";
     background: #fff;
     top: 7px;
     left: -12px;
@@ -285,7 +325,6 @@ body {
     border: solid 1px #000;
     border-radius: 50%;
 }
-
 
 .code__title {
     text-transform: uppercase;
@@ -305,8 +344,7 @@ body {
 .code {
     display: block;
     height: 150px;
-    background: #1a1a21;
-
+    background: #c3b091;
 }
 .code-keyword {
     color: rgb(89, 59, 170);
@@ -315,14 +353,7 @@ body {
     color: rgb(149, 30, 30);
 }
 .code-params {
-
 }
-
-
-
-
-
-
 
 /* 3. Footer section */
 
@@ -335,7 +366,7 @@ body {
 }
 .contacts {
     height: 100%;
-    background: #1a1a21;
+    background: #c3b091;
     width: 30%;
     padding-left: 3%;
     padding-top: 0.5%;
@@ -345,14 +376,12 @@ body {
     color: aliceblue;
 }
 .contacts__phone {
-
 }
-.contacts_item{
+.contacts_item {
     position: relative;
     margin: 30px 0 0 50px;
     color: aliceblue;
 }
-
 
 .contacts_item::before {
     position: absolute;
@@ -362,16 +391,14 @@ body {
     z-index: 1;
     height: 40px;
 }
-.contact_phone::before{
+.contact_phone::before {
     content: "Phone";
     width: 145px;
 }
-.contact_email::before{
+.contact_email::before {
     content: "Email";
     width: 220px;
 }
-
-
 
 .contacts_item:hover:before {
     position: absolute;
@@ -380,39 +407,34 @@ body {
     z-index: 1;
     height: 40px;
 }
-.contact_phone:hover:before{
+.contact_phone:hover:before {
     content: "Phone:";
     left: -69px;
     width: 30px;
     transition: left 0.8s, width 1.4s;
 }
-.contact_email:hover:before{
+.contact_email:hover:before {
     content: "Email:";
     left: -62px;
     width: 30px;
     transition: left 0.8s, width 1.2s;
 }
 
-
-
-
 .footer__content {
     height: 100%;
     width: 70%;
     background: #fecc00;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
-
 }
 .footer__github {
     height: 60%;
 }
 .footer__rsschool {
     height: 60%;
-
 }
-.footer__image{
+.footer__image {
     height: 100%;
 }
 
@@ -422,3 +444,13 @@ body {
     padding-right: 5%;
 }
 
+/* Animation frames */
+
+@keyframes press {
+    0% {
+        top: 0px;
+    }
+    100% {
+        top: 1000px;
+    }
+}
