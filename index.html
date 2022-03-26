@@ -11,15 +11,14 @@
 </head>
 
 <body>
-    <audio autoplay >
-        <source  src="./audio/thug_life_sound_effect.mp3" type="audio">
-    </audio>
     <div class="wrapper">
-
+        <audio autoplay>
+            <source src="./audio/thug_life_sound_effect.mp3">
+        </audio>
         <div class="container">
             <header class="header">
                 <div class="thug_life">
-                    <div class="thug_glasses"><img  src="./assets/img/thug_glasses.png" alt="thug_glasses"></div>
+                    <div class="thug_glasses"><img src="./assets/img/thug_glasses.png" alt="thug_glasses"></div>
                     <div class="thug_sig"><img src="./assets/img/thug_sig.png" alt="thug_sig"></div>
                 </div>
                 <div class="header__photo">
@@ -47,13 +46,15 @@
                         <div class="divider divider_yellow"></div>
                         <div class="education__content">
                             <div class="ebucation__place">
-                                <div class="education__title" ><a href="https://www.bsmu.by/" target="blank">Belarusian State Medical
+                                <div class="education__title"><a href="https://www.bsmu.by/" target="blank">Belarusian
+                                        State Medical
                                         University</a></div>
                                 <div class="education__subtitle">Dentist</div>
                             </div>
                             <div class="divider divider_yellow"></div>
                             <div class="ebucation__place">
-                                <div class="education__title"><a href="https://rs.school/" target="blank">RS School</a></div>
+                                <div class="education__title"><a href="https://rs.school/" target="blank">RS School</a>
+                                </div>
                                 <div class="education__subtitle"> JS/FE 2022Q1 </div>
                             </div>
                         </div>
@@ -130,10 +131,10 @@
                         </div>
                     </section>
                     <div class="footer__content">
-                        <a href="https://github.com/justmagis" target="blank" class="footer__github"><img class="footer__image"
-                                src="./assets/icons/github.svg" alt="github"></a>
-                        <a href="https://rs.school/js/" target="blank" class="footer__rsschool"><img class="footer__image"
-                                src="./assets/icons/rs_school_js.svg" alt="rs_school_js"></a>
+                        <a href="https://github.com/justmagis" target="blank" class="footer__github"><img
+                                class="footer__image" src="./assets/icons/github.svg" alt="github"></a>
+                        <a href="https://rs.school/js/" target="blank" class="footer__rsschool"><img
+                                class="footer__image" src="./assets/icons/rs_school_js.svg" alt="rs_school_js"></a>
                         <div class="footer__date">
                             created
                             in 2022
@@ -143,6 +144,13 @@
             </footer>
         </div>
     </div>
+    <script>
+        var intro = new Audio('./audio/thug_life_sound_effect.mp3');
+        $(document).ready(function () {
+            intro.autoplay = true;
+            intro.loop = true;
+        });
+    </script>
 </body>
 
 </html>

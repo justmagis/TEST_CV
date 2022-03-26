@@ -13,7 +13,7 @@ body {
 }
 .wrapper {
     min-height: 100%;
-    background: rgb(235, 227, 214);
+    background: black;
     width: 100%;
 }
 
@@ -27,7 +27,7 @@ body {
 .header {
     position: relative;
     text-transform: uppercase;
-    background: #c3b091;
+    background: #1a1a21;
     display: flex;
 }
 .header__photo {
@@ -39,6 +39,8 @@ body {
     position: relative;
     width: 100%;
 }
+
+
 
 /* THUG-life */
 
@@ -58,8 +60,8 @@ body {
 
 .thug_sig {
     position: absolute;
-    width: 80px;
-    top: 311px;
+    width: 70px;
+    top: 314px;
     left: 45px;
     animation: thug-sig 1.5s linear;
 }
@@ -76,7 +78,7 @@ body {
         top: -50px;
     }
     100% {
-        top: 311px;
+        top: 314px;
     }
 }
 
@@ -144,7 +146,7 @@ body {
 .aside {
     display: flex;
     width: 30%;
-    background: #c3b091;
+    background: #1a1a21;
     flex-direction: column;
     color: aliceblue;
     padding-left: 3%;
@@ -256,7 +258,7 @@ body {
     display: flex;
     width: 70%;
     color: #1a1a21;
-    background: #fffff0;
+    background: #ffffff;
 }
 
 .main__container {
@@ -344,7 +346,7 @@ body {
 .code {
     display: block;
     height: 150px;
-    background: #c3b091;
+    background: #1a1a21;
 }
 .code-keyword {
     color: rgb(89, 59, 170);
@@ -366,7 +368,7 @@ body {
 }
 .contacts {
     height: 100%;
-    background: #c3b091;
+    background: #1a1a21;
     width: 30%;
     padding-left: 3%;
     padding-top: 0.5%;
@@ -394,10 +396,12 @@ body {
 .contact_phone::before {
     content: "Phone";
     width: 145px;
+    height: 40px;
 }
 .contact_email::before {
     content: "Email";
     width: 220px;
+    height: 40px;
 }
 
 .contacts_item:hover:before {

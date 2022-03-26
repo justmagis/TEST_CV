@@ -25,7 +25,8 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+embed {
     margin: 0;
 }
 body {
